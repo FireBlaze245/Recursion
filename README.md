@@ -1,3 +1,4 @@
+
 <div align="center">
   
 # ***Рекурсия***
@@ -6,7 +7,7 @@
 
 — это метод решения задач, при котором функция вызывает саму себя для обработки более простой версии той же задачи. 
 
-![ntrcn](https://yandex.ru/images/search?pos=1&from=tabbar&img_url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-lpc%2F1220100%2F0bd6f82a-a6b6-4b4e-b85f-c6185cbd5a67%2Fwidth_1280x2_q80&text=Картинка+спуска+подъёма+рекурсия&rpt=simage&lr=213)
+<img width="311" height="320" alt="i" src="https://github.com/user-attachments/assets/feae7b4b-3c1c-4a4a-97d1-4dd510125717" />
 
 --Спуск и подъем по стеку вызовов--  
 Когда функция вызывает себя, каждое новое состояние сохраняется в стеке вызовов (call stack):
