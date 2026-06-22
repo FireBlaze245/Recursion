@@ -30,6 +30,23 @@
 - Возвращаемые значения передаются вверх по цепочке  
 <br>
 
+***
+
+📊 Визуализация стека для factorial(4)
+
+***
+
+factorial(4)
+├── factorial(3)
+│ ├── factorial(2)
+│ │ ├── factorial(1)
+│ │ │ ├── factorial(0)
+│ │ │ │ └── return 1
+│ │ │ └── return 1 * 1 = 1
+│ │ └── return 2 * 1 = 2
+│ └── return 3 * 2 = 6
+└── return 4 * 6 = 24
+
 Ниже приведена простая реализация:
 
     void example(int n) {
