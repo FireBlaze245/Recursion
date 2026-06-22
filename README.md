@@ -176,11 +176,6 @@ int tail_factorial(int n, int acc) {
 <br>
 <br>
 
-<br>
-<br>
-
-<br>
-<br>
 
 ## ✅ Чек-лист перед написанием рекурсии
 ```markdown
