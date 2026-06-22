@@ -107,6 +107,7 @@ int binary_search(int arr[], int left, int right, int target) {
 
 /*Рекурсия и указатели*/
 // Обход связного списка (рекурсивно)
+
 struct Node {
     int data;
     struct Node* next;
