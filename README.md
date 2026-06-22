@@ -7,11 +7,14 @@
 
 — это метод решения задач, при котором функция вызывает саму себя для обработки более простой версии той же задачи. 
 
-<img width="311" height="320" alt="i" src="https://github.com/user-attachments/assets/feae7b4b-3c1c-4a4a-97d1-4dd510125717" />
+
 
 --Спуск и подъем по стеку вызовов--  
 Когда функция вызывает себя, каждое новое состояние сохраняется в стеке вызовов (call stack):
 <br>
+<img width="628" height="290" alt="i" src="https://github.com/user-attachments/assets/857a984f-e585-4e35-94c3-5305b4509521" />
+
+
 <br>
 
 *Спуск* (погружение)  
@@ -113,3 +116,6 @@
         free_list(head->next);             // Сначала удаляем хвост
         free(head);                        // Потом текущий элемент
     }
+
+
+<img width="311" height="320" alt="i" src="https://github.com/user-attachments/assets/feae7b4b-3c1c-4a4a-97d1-4dd510125717" />![Uploading i.webp…]()
