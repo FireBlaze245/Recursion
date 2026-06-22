@@ -83,27 +83,28 @@ int is_palindrome(char str[], int left, int right) {
     return is_palindrome(str, left + 1, right - 1);
 }
 
-/*Примеры рекурсии из реальной жизни.
-Быстрая сортировка: */
-void quick_sort(int arr[], int low, int high) {
-    if (low >= high) return;  // Базовый случай
+/*Примеры рекурсии из реальной жизни.\nБыстрая сортировка: */
 
-    int pivot = partition(arr, low, high);  // Разделение
-    quick_sort(arr, low, pivot - 1);        // Левая часть
-    quick_sort(arr, pivot + 1, high);       // Правая часть
-}
+    void quick_sort(int arr[], int low, int high) {
+        if (low >= high) return;  // Базовый случай
+    
+        int pivot = partition(arr, low, high);  // Разделение
+        quick_sort(arr, low, pivot - 1);        // Левая часть
+        quick_sort(arr, pivot + 1, high);       // Правая часть
+    }
 
 /*Так же подходит для бинарного поиска*/
-int binary_search(int arr[], int left, int right, int target) {
-    if (left > right) return -1;
 
-    int mid = left + (right - left) / 2;
-
-    if (arr[mid] == target) return mid;
-    if (arr[mid] > target)
-        return binary_search(arr, left, mid - 1, target);
-    return binary_search(arr, mid + 1, right, target);
-}
+    int binary_search(int arr[], int left, int right, int target) {
+    
+        if (left > right) return -1;
+        int mid = left + (right - left) / 2;
+    
+        if (arr[mid] == target) return mid;
+        if (arr[mid] > target)
+            return binary_search(arr, left, mid - 1, target);
+        return binary_search(arr, mid + 1, right, target);
+    }
 
 /*Рекурсия и указатели*/
 // Обход связного списка (рекурсивно)
