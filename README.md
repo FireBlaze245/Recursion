@@ -1,7 +1,7 @@
 # Рекурсия 
 
 <div align="center" >
-<div font size="20">
+<div font size="100">
   
 ***Рекурсия*** 
 
