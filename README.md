@@ -226,47 +226,54 @@ int tail_factorial(int n, int acc) {
 ## Примеры рекурсии из реальной жизни.  
 Быстрая сортировка: 
 
-    void quick_sort(int arr[], int low, int high) {
-        if (low >= high) return;                     // Базовый случай
-        int pivot = partition(arr, low, high);       // Разделение
-        quick_sort(arr, low, pivot - 1);             // Левая часть
-        quick_sort(arr, pivot + 1, high);            // Правая часть
-    }
+``` c
+void quick_sort(int arr[], int low, int high) {
+    if (low >= high) return;                     // Базовый случай
+    int pivot = partition(arr, low, high);       // Разделение
+    quick_sort(arr, low, pivot - 1);             // Левая часть
+    quick_sort(arr, pivot + 1, high);            // Правая часть
+}
+```
 
 Так же подходит для бинарного поиска
 
-    int binary_search(int arr[], int left, int right, int target) {
-    
-        if (left > right) return -1;
-        int mid = left + (right - left) / 2;
-    
-        if (arr[mid] == target) return mid;
-        if (arr[mid] > target)
-            return binary_search(arr, left, mid - 1, target);
-        return binary_search(arr, mid + 1, right, target);
-    }
+``` c
+int binary_search(int arr[], int left, int right, int target) {
+
+    if (left > right) return -1;
+    int mid = left + (right - left) / 2;
+
+    if (arr[mid] == target) return mid;
+    if (arr[mid] > target)
+        return binary_search(arr, left, mid - 1, target);
+    return binary_search(arr, mid + 1, right, target);
+}
+```
 
 Рекурсия и указатели  
 Обход связного списка (рекурсивно)
 
-    struct Node {
-        int data;
-        struct Node* next;
-    };
-    void print_list(struct Node* head) {
-        if (head == NULL) return;       //Конец списка
-        printf("%d ", head->data);
-        print_list(head->next);         //Переход к следующему
-    }
-    
+``` c
+struct Node {
+    int data;
+    struct Node* next;
+};
+void print_list(struct Node* head) {
+    if (head == NULL) return;       //Конец списка
+    printf("%d ", head->data);
+    print_list(head->next);         //Переход к следующему
+}
+```
+
 Рекурсивное удаление списка
 
-    void free_list(struct Node* head) {
-        if (head == NULL) return;
-        free_list(head->next);             // Сначала удаляем хвост
-        free(head);                        // Потом текущий элемент
-    }
-
+``` c
+void free_list(struct Node* head) {
+    if (head == NULL) return;
+    free_list(head->next);             // Сначала удаляем хвост
+    free(head);                        // Потом текущий элемент
+}
+```
 
 <img width="1173" height="1200" alt="scale_1200" src="https://github.com/user-attachments/assets/e5e4c9f7-8472-47f2-9f10-7feea2d7f3b7" />
 
