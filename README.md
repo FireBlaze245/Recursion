@@ -3,7 +3,7 @@
 
 <div align="center" >
 
-  <font size="5"> ***Рекурсия*** </font>
+  <font size="7"> ***Рекурсия*** </font>
 
 
 </div>
