@@ -1,9 +1,10 @@
 # Рекурсия 
 
 
-<div font size="100">
-  
-***Рекурсия*** 
+<div align="center" >
+
+  <font size="5"> ***Рекурсия*** </font>
+
 
 </div>
 
