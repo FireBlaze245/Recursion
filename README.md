@@ -132,6 +132,6 @@
     }
 
 
-<img width="311" height="320" alt="i" src="https://github.com/user-attachments/assets/feae7b4b-3c1c-4a4a-97d1-4dd510125717" />
+<img width="1173" height="1200" alt="scale_1200" src="https://github.com/user-attachments/assets/e5e4c9f7-8472-47f2-9f10-7feea2d7f3b7" />
 
 
