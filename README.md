@@ -2,7 +2,7 @@
 
 
 <div align="center">
-<span style="font-size: 20px;">
+<span style="font-size: 5px;">
     
 <b>Рекурсия</b>
     
