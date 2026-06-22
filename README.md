@@ -1,6 +1,6 @@
 # Рекурсия 
 
-<div align="center" font size="5">
+<div align="center" font size="20">
 
 ***Рекурсия*** 
 
