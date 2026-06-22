@@ -12,6 +12,7 @@
 --Спуск и подъем по стеку вызовов--  
 Когда функция вызывает себя, каждое новое состояние сохраняется в стеке вызовов (call stack):
 <br>
+
 <img width="628" height="290" alt="i" src="https://github.com/user-attachments/assets/857a984f-e585-4e35-94c3-5305b4509521" />
 
 
@@ -118,4 +119,4 @@
     }
 
 
-<img width="311" height="320" alt="i" src="https://github.com/user-attachments/assets/feae7b4b-3c1c-4a4a-97d1-4dd510125717" />![Uploading i.webp…]()
+<img width="311" height="320" alt="i" src="https://github.com/user-attachments/assets/feae7b4b-3c1c-4a4a-97d1-4dd510125717" />
