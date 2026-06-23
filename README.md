@@ -185,6 +185,7 @@ int tail_factorial(int n, int acc) {
 | Код | ✅ Компактный | ❌ Более объемный |
 
 <img width="1024" height="584" alt="unnamed-2-53-1024x584" src="https://github.com/user-attachments/assets/15e0d889-e91a-49ba-9f62-1c11a892400b" />
+<br>
 
 ``` c
 // Рекурсия
