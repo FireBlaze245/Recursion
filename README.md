@@ -332,6 +332,7 @@ void free_list(struct Node* head) {
 <br>
 
 
-<img width="1173" height="1200" alt="scale_1200" src="https://github.com/user-attachments/assets/e5e4c9f7-8472-47f2-9f10-7feea2d7f3b7" />
+<img width="497" height="512" alt="cynic-mansion-Комиксы-охотники-за-привидениями-3797586" src="https://github.com/user-attachments/assets/10d8ed0e-e9dc-45ad-af5c-e990d88af80e" />
+
 
 
