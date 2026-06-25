@@ -17,7 +17,7 @@ void show_task3(int mode);
 void show_task4(int mode);
 void show_task5(int mode);
 
-// задача 1. факториал
+// задача 1. факториал.
 int factorial(int n) {
     if (n == 0) return 1;
     return n * factorial(n - 1);
