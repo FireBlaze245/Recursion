@@ -466,10 +466,13 @@ void free_list(struct Node* head) {
 
 На главной странице репозитория нужно нажать на зеленую кнопку <> Code и выбрать Download ZIP
 <br>
-<div align="left">
+<div align="center">
 <img width="1070" height="370" alt="image" src="https://github.com/user-attachments/assets/55be683c-295c-4cee-88a0-45371f70a93c" />  
 <br>
 <img width="504" height="439" alt="image" src="https://github.com/user-attachments/assets/1d484d7e-f3bc-4142-8847-75efff18bbad" />  
 <br>
 </div>
-После разархивируйте архив и запустите файл start.bat и следуйте инструкциям  
+<br>
+<br>
+
+**После разархивируйте архив и запустите файл start.bat и следуйте инструкциям**  
