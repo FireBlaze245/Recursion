@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <windows.h>
  
-// прототипы функций
+// прототипы функций.
 int factorial(int n);
 int sum_up_to(int n);
 int power(int x, int n);
