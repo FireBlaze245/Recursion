@@ -155,7 +155,7 @@ void show_task4(int mode) {
     }
 }
 
-// задача 5 проверка полиндрома
+// задача 5 проверка полиндрома.
 int is_palindrome(char str[], int left, int right) {
     if (left >= right) return 1;
     if (str[left] != str[right]) return 0;
@@ -187,9 +187,7 @@ void show_task5(int mode) {
     }
 }
 
-// ========== ГЛАВНАЯ ФУНКЦИЯ ==========
 int main() {
-    // НАСТРОЙКА ДЛЯ КИРИЛЛИЦЫ
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
@@ -225,7 +223,7 @@ int main() {
             continue;
         }
 
-        // Вызов соответствующей функции
+        // Вызов соответствующей функции.
         switch (choice) {
         case 1: show_task1(mode); break;
         case 2: show_task2(mode); break;
