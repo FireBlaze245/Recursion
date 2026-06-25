@@ -103,7 +103,7 @@ void show_task3(int mode) {
     }
 }
 
-// задача 4 разворот строки
+// задача 4 разворот строки.
 void reverse_string_print(char str[], int index) {
     int len = strlen(str);
     if (index == len) return;
