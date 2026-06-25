@@ -15,6 +15,7 @@
 - [Повышенная сложность](#hq)  
 - [Примеры из реальной жизни](#примеры-рекурсии-из-реальной-жизни)
 - [Заключение](#end)
+- [Использование Tasks and solutions](#использование_tasks_and_solutions)
 
 ***
 <br>
@@ -459,5 +460,8 @@ void free_list(struct Node* head) {
 
 <img width="497" height="512" alt="cynic-mansion-Комиксы-охотники-за-привидениями-3797586" src="https://github.com/user-attachments/assets/10d8ed0e-e9dc-45ad-af5c-e990d88af80e" />
 
+<br>
+<br>
 
+## Использование Tasks and solutions
 
