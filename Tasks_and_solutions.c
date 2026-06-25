@@ -2,8 +2,26 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <locale.h>
+#ifdef _WIN32
 #include <windows.h>
+#define OS_WINDOWS 1
+#else
+#define OS_WINDOWS 0
+#endif
  
+void set_russian_locale() {
+#ifdef _WIN32
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    setlocale(LC_ALL, "Russian");
+#else
+    setlocale(LC_ALL, "ru_RU.UTF-8");
+    // или если не работает:
+    // setlocale(LC_ALL, "ru_RU.utf8");
+#endif
+}
+
 // прототипы функций...
 int factorial(int n);
 int sum_up_to(int n);
@@ -118,7 +136,6 @@ void reverse_string_inplace(char str[], int left, int right) {
     str[right] = temp;
     reverse_string_inplace(str, left + 1, right - 1);
 }
-
 void show_task4(int mode) {
     if (mode == 1) {
         printf("\nрешение задачи 4\n");
@@ -188,8 +205,10 @@ void show_task5(int mode) {
 }
 
 int main() {
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
+    set_russian_locale();
+    SetConsoleCP(CP_UTF8);
+    SetConsoleOutputCP(CP_UTF8);
+    setlocale(LC_ALL, "ru_RU.UTF-8");
 
     int choice, mode;
 
