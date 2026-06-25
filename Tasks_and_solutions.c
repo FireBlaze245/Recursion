@@ -45,7 +45,7 @@ void show_task1(int mode) {
     }
 }
 
-// задача 2 сумма от 1 до n
+// задача 2 сумма от 1 до n.
 int sum_up_to(int n) {
     if (n == 1) return 1;
     return n + sum_up_to(n - 1);
